@@ -1,0 +1,387 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		30E05CDA28C93B1A24CD4DED1911F1AB /* Pods-SimpleGPG-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 070B88F71C1757498DEFB0F3BB15F564 /* Pods-SimpleGPG-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		354E65AB1014464DB3C9C67EE871E65E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		FFF7644A9F5D98384D0230BE033E2E75 /* Pods-SimpleGPG-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 92D36A54932AE0FF701613533C92939F /* Pods-SimpleGPG-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		070B88F71C1757498DEFB0F3BB15F564 /* Pods-SimpleGPG-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SimpleGPG-umbrella.h"; sourceTree = "<group>"; };
+		1893DCDD637E58F1BFD5DEEF6FC72940 /* Pods-SimpleGPG.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-SimpleGPG.modulemap"; sourceTree = "<group>"; };
+		23DD8F368806E4C1BB7F664B53C20051 /* Pods_SimpleGPG.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SimpleGPG.framework; path = "Pods-SimpleGPG.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E272C9B8028C95E7AEC8595BB8A94A9 /* Pods-SimpleGPG.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SimpleGPG.debug.xcconfig"; sourceTree = "<group>"; };
+		476F7CBD6251DA3BA5E44E66E2368FE6 /* Pods-SimpleGPG-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SimpleGPG-acknowledgements.markdown"; sourceTree = "<group>"; };
+		554513DCEF75ABF8D214671BA6F3BDC3 /* Pods-SimpleGPG-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SimpleGPG-frameworks.sh"; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		6FFD9A7EF33C1989A80BFE89E279D796 /* Pods-SimpleGPG.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SimpleGPG.release.xcconfig"; sourceTree = "<group>"; };
+		7858F1ACA5A609DCEF5A8E9F48E6257C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		92D36A54932AE0FF701613533C92939F /* Pods-SimpleGPG-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SimpleGPG-dummy.m"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		AE92BB7CD22EC6EEA178E4CC15E982FD /* ObjectivePGP.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ObjectivePGP.framework; path = Frameworks/ios/ObjectivePGP.framework; sourceTree = "<group>"; };
+		CA4B4F92E1DBC2B2177148A715B38EAB /* Pods-SimpleGPG-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SimpleGPG-acknowledgements.plist"; sourceTree = "<group>"; };
+		F2CBAD45F33F33A7F56EBD67192CE326 /* Pods-SimpleGPG-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SimpleGPG-resources.sh"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C713C2C26D55AA60D29E7014BB4AF799 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				354E65AB1014464DB3C9C67EE871E65E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		019BD2144E6055FA3A9CB9BDC8CF44C7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A27F762FA361D40134161251292740AC /* ObjectivePGP */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		379CAD9ACD7AACC41512943F20D1469F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				23DD8F368806E4C1BB7F664B53C20051 /* Pods_SimpleGPG.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		45007DA5AE9A587BAA35951FBF61CA9F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AE92BB7CD22EC6EEA178E4CC15E982FD /* ObjectivePGP.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				019BD2144E6055FA3A9CB9BDC8CF44C7 /* Pods */,
+				379CAD9ACD7AACC41512943F20D1469F /* Products */,
+				9A81900AF99105DC08FBC547701FFE38 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		9A81900AF99105DC08FBC547701FFE38 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F87DA7AE186124087E8ED7CE0C5D76AB /* Pods-SimpleGPG */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		A27F762FA361D40134161251292740AC /* ObjectivePGP */ = {
+			isa = PBXGroup;
+			children = (
+				45007DA5AE9A587BAA35951FBF61CA9F /* Frameworks */,
+			);
+			name = ObjectivePGP;
+			path = ObjectivePGP;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		F87DA7AE186124087E8ED7CE0C5D76AB /* Pods-SimpleGPG */ = {
+			isa = PBXGroup;
+			children = (
+				7858F1ACA5A609DCEF5A8E9F48E6257C /* Info.plist */,
+				1893DCDD637E58F1BFD5DEEF6FC72940 /* Pods-SimpleGPG.modulemap */,
+				476F7CBD6251DA3BA5E44E66E2368FE6 /* Pods-SimpleGPG-acknowledgements.markdown */,
+				CA4B4F92E1DBC2B2177148A715B38EAB /* Pods-SimpleGPG-acknowledgements.plist */,
+				92D36A54932AE0FF701613533C92939F /* Pods-SimpleGPG-dummy.m */,
+				554513DCEF75ABF8D214671BA6F3BDC3 /* Pods-SimpleGPG-frameworks.sh */,
+				F2CBAD45F33F33A7F56EBD67192CE326 /* Pods-SimpleGPG-resources.sh */,
+				070B88F71C1757498DEFB0F3BB15F564 /* Pods-SimpleGPG-umbrella.h */,
+				3E272C9B8028C95E7AEC8595BB8A94A9 /* Pods-SimpleGPG.debug.xcconfig */,
+				6FFD9A7EF33C1989A80BFE89E279D796 /* Pods-SimpleGPG.release.xcconfig */,
+			);
+			name = "Pods-SimpleGPG";
+			path = "Target Support Files/Pods-SimpleGPG";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		A46E8B94DA4C3EB9182E9B160EAC047F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30E05CDA28C93B1A24CD4DED1911F1AB /* Pods-SimpleGPG-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		138CE1F1C2ADA72DEEF636EA3F8FF52B /* Pods-SimpleGPG */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7E57EC74223F175D3000A65F8342662E /* Build configuration list for PBXNativeTarget "Pods-SimpleGPG" */;
+			buildPhases = (
+				CD1134D0EFAFEE994380C53FFCE63ECF /* Sources */,
+				C713C2C26D55AA60D29E7014BB4AF799 /* Frameworks */,
+				A46E8B94DA4C3EB9182E9B160EAC047F /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-SimpleGPG";
+			productName = "Pods-SimpleGPG";
+			productReference = 23DD8F368806E4C1BB7F664B53C20051 /* Pods_SimpleGPG.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 379CAD9ACD7AACC41512943F20D1469F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				138CE1F1C2ADA72DEEF636EA3F8FF52B /* Pods-SimpleGPG */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CD1134D0EFAFEE994380C53FFCE63ECF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFF7644A9F5D98384D0230BE033E2E75 /* Pods-SimpleGPG-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1A41B15D3AA834993ADDD808FA9D8764 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		753086EADD72AC3EA46B1D40D82CAD71 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6FFD9A7EF33C1989A80BFE89E279D796 /* Pods-SimpleGPG.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-SimpleGPG/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SimpleGPG/Pods-SimpleGPG.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_SimpleGPG;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7D144F724433A09597E3476A57631255 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		9058D61BCD79A40930F9C34BE6F5A097 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3E272C9B8028C95E7AEC8595BB8A94A9 /* Pods-SimpleGPG.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-SimpleGPG/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SimpleGPG/Pods-SimpleGPG.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_SimpleGPG;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D144F724433A09597E3476A57631255 /* Debug */,
+				1A41B15D3AA834993ADDD808FA9D8764 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7E57EC74223F175D3000A65F8342662E /* Build configuration list for PBXNativeTarget "Pods-SimpleGPG" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9058D61BCD79A40930F9C34BE6F5A097 /* Debug */,
+				753086EADD72AC3EA46B1D40D82CAD71 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
